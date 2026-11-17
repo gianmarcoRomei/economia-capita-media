@@ -1,0 +1,8 @@
+{
+  "voice_name": "Brando Vox - Intense Documentary Host",
+  "voice_id": "AgJJPN3sMBYjtEiDHyKr",
+  "model_id": "eleven_v4",
+  "stability": 0.5,
+  "similarity_boost": 0.75,
+  "language_code": "it"
+}

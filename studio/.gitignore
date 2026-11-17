@@ -1,0 +1,6 @@
+.env.local
+audio/
+reel-*/
+*.wav
+node_modules/
+__pycache__/
