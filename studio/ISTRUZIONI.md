@@ -23,7 +23,7 @@ Obiettivo: **un reel al giorno**, pronto per l'approvazione verso le 14, pubblic
 - Zona sicura reel: didascalie in alto (top 300), grafica tra y 600 e 1450; niente in basso sotto 1500 né a destra oltre x 960.
 
 ## Procedura (cartella `studio/`)
-1. **Setup**: `pip install -r requirements.txt numpy --break-system-packages`. Chiave: con i tool del computer (`device_stage_files`) copia `/Users/gianmarcoromei/Desktop/economia-capita/.env.local` in `studio/.env.local` **senza aprirlo**. Se il computer non risponde, avvisa Gianmarco (push) e chiedigli di accenderlo/aprire l'app Claude.
+1. **Setup**: `pip install -r requirements.txt numpy --break-system-packages`. Chiave: se `ELEVENLABS_API_KEY` non è già nell'ambiente, con i tool del computer (`device_stage_files`) copia il file `/Users/gianmarcoromei/Desktop/economia-capita/CHIAVE-ELEVENLABS.txt` (una riga `ELEVENLABS_API_KEY=...`) in `studio/.env.local` **senza aprirlo né stamparlo**. Se il computer non risponde, avvisa Gianmarco (push) e chiedigli di accenderlo/aprire l'app Claude.
 2. **Argomento**: leggi `pubblicati.md`. Se c'è una promessa aperta ("nel prossimo…"), fai quella. Altrimenti cerca notizie economiche del giorno (Italia/giovani/soldi/tecnologia) o un caso storico folle. Niente doppioni.
 3. **Copione** in `copioni/reelNN-titolo.txt`: ~120–150 parole, tag vocali tra parentesi quadre ([shouting], [laughs], [whispers], [serious]), finale con "Seguimi: nel prossimo…".
 4. **Voce**: `python3 src/voce.py copioni/reelNN-titolo.txt reelNN` → `audio/voce-reelNN.mp3` + `audio/words-reelNN.json` (tempi parola per parola). Voce Brando (voce.json, modello eleven_v4, stabilità 0.5, somiglianza 0.75).
