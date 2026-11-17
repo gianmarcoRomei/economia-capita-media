@@ -12,3 +12,4 @@ Aggiornare dopo ogni pubblicazione. Serve a non ripetere argomenti e a mantenere
 | carosello | nov 2026 | carosello | GTA 6 esce il 19 novembre: l'economia | — | — |
 | YouTube 01 | 18 nov 2026 00:00 | video lungo | Cosa succederebbe se tutti andassimo in banca insieme (1929, corsa agli sportelli) | "Domani ore 8:30…" | Bretton Woods |
 | reel 05 | 17 nov 2026 | reel | Under 25 disoccupati ×4 rispetto agli adulti (OIL) + fuga dei laureati | "Hai meno di 25 anni? Sei fregato." | **Perché all'estero ti pagano di più (NON perché i tedeschi sono più bravi)** → da fare come reel 06 |
+| carosello | 17 nov 2026 | carosello | Lo scandalo Revolut: dati di ~700 clienti consegnati a truffatori via PEC del Viminale + multe AGCM 11,5 mln | "Gli hacker hanno chiesto i dati. E Revolut glieli ha dati." | — |
