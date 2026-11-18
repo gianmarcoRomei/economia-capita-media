@@ -34,3 +34,10 @@ Obiettivo: **un reel al giorno**, pronto per l'approvazione verso le 14, pubblic
 9. **Approvazione**: manda a Gianmarco video, copertina e didascalia (SendUserFile) + notifica push "Reel di oggi pronto: ok per le 17?". Copia il video anche sul Desktop (`/Users/gianmarcoromei/Desktop/economia-capita/reel-NN/`) per TikTok.
 10. **Dopo l'ok**: commit e push di `reel/` e `studio/` (MAI .env.local). URL pubblico: `https://cdn.jsdelivr.net/gh/gianmarcoRomei/economia-capita-media@<sha-commit>/reel/<file>` (usa lo sha, non @main, per evitare la cache). Alle 17:00 (se l'ok arriva prima, programma con send_later per le 17:00 in questa sessione; se arriva dopo, pubblica subito): Windsor `instagram` → `create_video_post` sull'account `17841479750081873`, con `video_url`, `cover_url`, `caption`, `share_to_feed: true`.
 11. Aggiorna `pubblicati.md` (riga nuova + promessa per il prossimo) e fai push.
+
+## Caroselli (feedback: "non viene voglia di scorrere")
+- Mai slide piene di testo. Ogni slide: **un numero o un'immagine gigante + max 1 frase**.
+- Lo scorrimento deve far avanzare qualcosa (tempo, prezzo, classifica, conto alla rovescia) e la barra in alto mostra l'avanzamento.
+- Ogni slide finisce con un mini-cliffhanger ("aspetta.", "non è finita.") e la prima promette una rivelazione finale ("alla fine scopri chi è stato").
+- Usa almeno un elemento a cavallo tra due slide (panorama 2160 px tagliato in due) per obbligare a scorrere.
+- Esempio riuscito: `src/carosello-pane.py` nel progetto originale (prezzo del pane, Germania 1923); slide in `carosello/pane/`.
