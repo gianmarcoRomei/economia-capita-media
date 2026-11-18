@@ -40,4 +40,4 @@ Obiettivo: **un reel al giorno**, pronto per l'approvazione verso le 14, pubblic
 - Lo scorrimento deve far avanzare qualcosa (tempo, prezzo, classifica, conto alla rovescia) e la barra in alto mostra l'avanzamento.
 - Ogni slide finisce con un mini-cliffhanger ("aspetta.", "non è finita.") e la prima promette una rivelazione finale ("alla fine scopri chi è stato").
 - Usa almeno un elemento a cavallo tra due slide (panorama 2160 px tagliato in due) per obbligare a scorrere.
-- Esempio riuscito: `src/carosello-pane.py` nel progetto originale (prezzo del pane, Germania 1923); slide in `carosello/pane/`.
+- Esempio riuscito: `src/carosello-pane.py` (prezzo del pane, Germania 1923); slide in `carosello/pane/`.
