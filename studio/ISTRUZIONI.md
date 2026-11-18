@@ -22,6 +22,10 @@ Obiettivo: **un reel al giorno**, pronto per l'approvazione verso le 14, pubblic
 - Firma visiva: foglio a righe con margine rosso, timbro che cade (0.24 s power4.in + scossa), barra di avanzamento rossa in basso, chiusura "Economia [Capita]" col timbro e jingle_out.
 - Zona sicura reel: didascalie in alto (top 300), grafica tra y 600 e 1450; niente in basso sotto 1500 né a destra oltre x 960.
 
+## Calendario
+- Un solo reel al giorno. Se in `pubblicati.md` c'è già un reel pubblicato o **programmato** per oggi, prepara il nuovo reel e proponilo per **domani alle 17:00** (non oggi).
+- Orari migliori: reel 17:00–18:30; caroselli 12:30 o 20:00. Mai due post a meno di 3 ore di distanza.
+
 ## Procedura (cartella `studio/`)
 1. **Setup**: `pip install -r requirements.txt numpy --break-system-packages`. Chiave: se `ELEVENLABS_API_KEY` non è già nell'ambiente, con i tool del computer (`device_stage_files`) copia il file `/Users/gianmarcoromei/Desktop/economia-capita/CHIAVE-ELEVENLABS.txt` (una riga `ELEVENLABS_API_KEY=...`) in `studio/.env.local` **senza aprirlo né stamparlo**. Se il computer non risponde, avvisa Gianmarco (push) e chiedigli di accenderlo/aprire l'app Claude.
 2. **Argomento**: leggi `pubblicati.md`. Se c'è una promessa aperta ("nel prossimo…"), fai quella. Altrimenti cerca notizie economiche del giorno (Italia/giovani/soldi/tecnologia) o un caso storico folle. Niente doppioni.
