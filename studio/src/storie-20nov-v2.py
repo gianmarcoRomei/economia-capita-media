@@ -28,13 +28,13 @@ def shot(name, theme, body):
 # 1 — Che ragazza di Gigi sei? (sondaggio a 4 opzioni / quiz)
 cards=[(100,820,'#4F7CAC','azioni','Azzurra','ti fa sognare, poi ti molla'),(570,820,'#5E8A69','obbligazioni','Bea','noiosa ma puntuale'),
        (100,1160,'#B8892A','oro','Orietta','c&#39;è quando va tutto male'),(570,1160,'#6E6C88','liquidità','Lilli','zero sorprese, zero guadagni')]
-b='<div class="k">dopo il reel di oggi</div><div class="t">Tu con chi staresti? <em>Sii onesto.</em></div>'
+b='<div class="k">dopo l&#39;ultimo reel</div><div class="t">Tu con chi staresti? <em>Sii onesto.</em></div>'
 b+=''.join(f'<div class="card" style="left:{x}px;top:{y}px;border-color:{c}"><div class="cl">{l}</div><div class="cn" style="color:{c}">{n}</div><div class="cd">{d}</div></div>' for x,y,c,l,n,d in cards)
 b+='<div class="a" style="left:100px;right:90px;top:1450px;font-size:50px;line-height:1.15">Scegline una. <b>Solo una.</b></div><div class="tap">poi tocca → e scopri che investitore sei</div>'
 shot('a1-che-ragazza-sei','carta',b)
 rows=[('#4F7CAC','Azzurra','Ami il rischio. Occhio ai crolli.'),('#5E8A69','Bea','Prudente. Dormi bene la notte.'),('#B8892A','Orietta','Pessimista di professione.'),('#6E6C88','Lilli','Tranquillo… ma l&#39;inflazione ti mangia.')]
 b='<div class="k">che investitore sei</div>'+''.join(f'<div class="a" style="left:100px;right:90px;top:{330+i*230}px"><div style="font-size:84px;font-weight:600;color:{c};line-height:1">{n}</div><div style="font-size:54px;line-height:1.15;margin-top:6px">{d}</div></div>' for i,(c,n,d) in enumerate(rows))
-b+='<div class="a" style="left:100px;top:1290px;transform:rotate(-4deg)"><span class="stamp" style="font-size:68px">la risposta giusta?</span></div><div class="a" style="left:100px;right:90px;top:1440px;font-size:66px;line-height:1.1">Un po&#39; di <em>tutte</em>. Si chiama diversificare: è nel reel di oggi.</div>'
+b+='<div class="a" style="left:100px;top:1290px;transform:rotate(-4deg)"><span class="stamp" style="font-size:68px">la risposta giusta?</span></div><div class="a" style="left:100px;right:90px;top:1440px;font-size:66px;line-height:1.1">Un po&#39; di <em>tutte</em>. Si chiama diversificare: trovi il reel sul profilo.</div>'
 shot('a2-che-investitore-sei','carta',b)
 # 2a — Quiz sconto
 b=('<div class="k">black friday · quiz</div><div class="t">«Da 100 € a <em>50 €</em>.»<br/>Ma 20 giorni fa costava 60 €.</div>'
