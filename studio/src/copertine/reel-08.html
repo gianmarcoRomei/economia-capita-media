@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it" data-resolution="portrait"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="gsap.min.js"></script>
+<style>
+:root{--serif:"EB Garamond",Georgia,serif;--mono:"IBM Plex Mono",monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#2B2A4C}
+#root{position:relative;width:100%;height:100%;background:#2B2A4C;color:#EDE6D3;font-family:var(--serif)}
+#r{position:absolute;inset:0;background-image:repeating-linear-gradient(to bottom,transparent 0 63px,rgba(237,230,211,.06) 63px 64px)}
+#k{position:absolute;left:110px;top:330px;font-family:var(--mono);font-size:34px;letter-spacing:.14em;color:#cfc8b6}
+#t{position:absolute;left:110px;right:100px;top:420px;font-size:128px;line-height:1.02;font-weight:500;letter-spacing:-.015em}
+#t em{color:#E3B23C;font-style:italic}
+#s{position:absolute;left:110px;top:1080px;color:#E3B23C;border:9px solid #E3B23C;border-radius:12px;padding:0 30px 12px;font-size:200px;font-weight:600;line-height:1;transform:rotate(-5deg)}
+#n{position:absolute;left:110px;top:1400px;font-family:var(--mono);font-size:32px;line-height:1.4;color:#cfc8b6;letter-spacing:.06em}
+#w{position:absolute;left:110px;top:1560px;font-size:46px}
+#w i{color:#C96F62}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="1080" data-height="1920">
+<div id="r"></div>
+<div id="k">IMPRESE · FAMIGLIA · ITALIA</div>
+<div id="t">In Italia il capo è <em>papà.</em></div>
+<div id="s">84,6%</div>
+<div id="n">DELLE AZIENDE<br/>È DI FAMIGLIA</div>
+<div id="w">economia <i>capita</i></div>
+</div>
+<script>const tl=gsap.timeline({paused:true});tl.to("#r",{opacity:1,duration:1},0);window.__timelines["main"]=tl;tl.seek(0);</script>
+</body></html>
